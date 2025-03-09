@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 
 const verifyRecaptcha = async (recaptchaResponse: string): Promise<boolean> => {
-    const secretKey = process.env.RECAPTCHA_SECRET_KEY || '6LdOHeAqAAAAAKTLjmCf5ukZfrA_gmGX1pZabshZ';
+    const secretKey = process.env.RECAPTCHA_SECRET_KEY || '6Lcbku4qAAAAAMQg4T9zqTGkMxPOftAulibetGSq';
     const url = `https://www.google.com/recaptcha/api/siteverify?secret=${secretKey}&response=${recaptchaResponse}`;
 
     try {
