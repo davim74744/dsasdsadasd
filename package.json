@@ -13,7 +13,7 @@
     "deploy:worker": "npm run build:worker && wrangler deploy"
   },
   "engines": {
-    "node": "23.9.0"
+    "node": ">=20.0.0"
   },
   "dependencies": {
     "next": "15.1.7",
