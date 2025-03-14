@@ -285,7 +285,7 @@ const PaymentBar: React.FC<PaymentBarProps> = ({ selectedPackage, selectedOffer,
                                             <ReCAPTCHA
                                                 ref={recaptchaRef}
                                                 size="invisible"
-                                                sitekey="6Lf9ZvQqAAAAABRqTqYzLQ2fSogPgmjAUXWPvqen"
+                                                sitekey="6LczdfQqAAAAAOLb9BaYr7ySYlclVHhQp98QYnnH"
                                                 onChange={handleCaptchaChange}
                                             />
                                         </div>
