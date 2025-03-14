@@ -52,7 +52,7 @@ export default function Home() {
               className={`font-bold text-blue-600 transition-all duration-300 ${isScrolled ? "hidden" : "text-2xl"
                 }`}
             >
-              Free Fire Hub
+              Free Fire ONLINE
             </h1>
           </div>
           <div className="hidden md:flex gap-6 items-center">
